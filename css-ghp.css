@@ -1,0 +1,162 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cnb{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.625rem;
+    align-items: center;
+    
+}
+.navbar .icons{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.navbar li a{
+    padding-left: 0.625rem;
+    color: #000;
+    text-decoration: none;
+    font-size: .9rem;
+}
+li:hover a{
+    text-decoration: underline;
+
+}
+.navbar .material-icons-outlined{
+    margin-left: 1.125rem;
+    padding: .4rem;
+    font-size: 1.75rem;
+    
+    border-radius: 3rem;
+}
+
+#cosarara:hover{
+    background-color:#f2f2f2 ;
+
+}
+#iconcuenta:hover{
+    background-color:#f2f2f2
+}
+
+
+.cmain{
+    margin-top: 4.3rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 7rem;     
+}
+
+.cmain .input{
+    border-style: none;
+    width: 30rem;
+    max-width: 30rem;
+    height: 2rem;
+    outline: none;
+    
+}
+
+.cmain .input-cont{
+    display: flex;
+    align-items: center;
+    border-color: #000;
+    border: solid;
+    font-size: 2.3rem;
+    border-radius: 1.5rem;
+    border-width: .1rem;
+    border-color: #ccc;
+    padding: 0rem 1rem;
+    margin: 1.5rem 0rem;
+    max-width: 30rem;
+}
+.input-cont:hover{
+    box-shadow: .2rem .2rem .5rem .1rem #ccc ;
+
+}
+#lupa{
+    color: #ccc;
+    user-select: none;
+
+}
+
+.buttons{
+    font-size: .9rem;
+    padding: .7rem;
+    margin-left: 1rem;
+    border-style: none;
+    background-color: #f2f2f2;
+    border-radius: .5rem;
+}
+
+.buttons:hover{
+    box-shadow: .2rem .2rem .5rem .1rem #ccc ;
+
+}
+.botones{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+
+}
+
+.idioma{
+    text-decoration: none;
+    padding-left: .6rem;
+}
+
+.idioma:hover{
+    text-decoration: underline;
+
+}
+
+.pie{
+    position: absolute;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-size: .9rem;
+    
+
+}
+
+.pais{
+    padding: 1rem;
+    border-bottom: solid #ccc;
+    border-bottom-width: .1rem;
+    color: #999;
+}
+
+.prueba{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.prueba .link{
+    text-decoration: none;
+    color: #999;
+}
+
+.link:hover{
+    text-decoration: underline;
+
+}
